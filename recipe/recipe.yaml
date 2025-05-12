@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: mostlyai-qa
-  version: 1.8.0
-  python_min: 3.10
+  version: "1.9.2"
+  python_min: '3.10'
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/mostlyai_qa-${{ version }}.tar.gz
-  sha256: 54b365cd27dae9ff9ac0aec9c690023bb905c3c6216026afdd2c6d6206c5e220
+  sha256: 2fd8fcadb339e5ea9e32b6676d52b6cbd06f0abb03b9796233bc9c0199dddbcb
 
 build:
   number: 0
